@@ -1,7 +1,17 @@
 
 # Sync-Script
 
-Sync-Script is a collaborative text editor designed for real-time document editing. It provides seamless synchronization of document changes across multiple users.
+Sync-Script is a collaborative text editor designed for real-time document editing.
+It provides seamless synchronization of document changes across multiple users.
+
+**Screenshot of UI**
+![Screenshot of UI](https://github.com/hackice20/Sync-Script/blob/master/Screenshot%202024-09-15%20205900.png)
+
+**DataBase OutPut**
+![DataBase OutPut](https://github.com/hackice20/Sync-Script/blob/master/Screenshot%202024-09-15%20213221.png)
+
+**Video Demo**
+[Video Demo]()
 
 ## Installation
 ```markdown
