@@ -14,25 +14,32 @@ It provides seamless synchronization of document changes across multiple users.
 [Video Demo](https://youtu.be/zYzlZV121C0)
 
 ## Installation
-```markdown
+
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/hackice20/Sync-Script.git
+
+   ```
+      bash
+   
+      git clone https://github.com/hackice20/Sync-Script.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd Sync-Script
+      bash
+      cd Sync-Script
    ```
 
 3. Install dependencies:
-   ```bash
-   npm install
+   
+   ```
+      bash
+      npm install
    ```
 
 4. Start the development server:
-   ```bash
-   npm run dev
+   ```
+      bash
+      npm run dev
    ```
 
 ## Features
