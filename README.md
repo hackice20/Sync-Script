@@ -21,7 +21,7 @@ It provides seamless synchronization of document changes across multiple users.
    ```
 
 2. Navigate to the project directory:
-   ```bash
+   ```
    cd Sync-Script
    ```
 
