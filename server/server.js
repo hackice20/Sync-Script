@@ -4,11 +4,10 @@ const express = require("express")
 
 // Initialize Express app
 const app = express()
-const uri = 'mongodb+srv://yashkam431:KjxDCgexpUAfBHXc@cluster0.mongodb.net/google-docs-clone?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://yashkam431:KjxDCgexpUAfBHXc@cluster0.u4awn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 // Mongoose connection
 mongoose.connect(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  
 })
   .then(() => console.log("Connected to MongoDB"))
   .catch(err => console.error("Connection error", err))
