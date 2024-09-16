@@ -1,6 +1,10 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
 const express = require("express")
+const cors = require('cors');
+app.use(cors({
+  origin: 'https://your-frontend-url.vercel.app',  // Vercel frontend URL
+}));
 
 // Initialize Express app
 const app = express()
