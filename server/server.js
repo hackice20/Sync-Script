@@ -1,13 +1,14 @@
-const mongoose = require("mongoose")
-const Document = require("./Document")
 const express = require("express")
 const cors = require('cors');
+const mongoose = require("mongoose")
+const Document = require("./Document")
+// Initialize Express app
+const app = express()
 app.use(cors({
   origin: 'https://sync-script-mu.vercel.app/',  // Vercel frontend URL
 }));
+app.use(express.json());
 
-// Initialize Express app
-const app = express()
 const uri = 'mongodb+srv://yashkam431:KjxDCgexpUAfBHXc@cluster0.u4awn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 // Mongoose connection
 mongoose.connect(uri, {
