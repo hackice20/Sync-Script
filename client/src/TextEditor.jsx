@@ -23,7 +23,7 @@ export default function TextEditor() {
   const [quill, setQuill] = useState(null);
 
   useEffect(() => {
-    const s = io("http://localhost:3001");
+    const s = io("https://sync-script-chay.onrender.com/");
     setSocket(s);
 
     return () => {
