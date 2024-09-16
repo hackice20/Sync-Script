@@ -6,7 +6,7 @@ const express = require("express")
 const app = express()
 
 // Mongoose connection
-mongoose.connect("mongodb://localhost/google-docs-clone")
+mongoose.connect("mongodb+srv://yashkam431:KjxDCgexpUAfBHXc@cluster0.mongodb.net/google-docs-clone?retryWrites=true&w=majority")
   .then(() => console.log("Connected to MongoDB"))
   .catch(err => console.error("Connection error", err))
 
