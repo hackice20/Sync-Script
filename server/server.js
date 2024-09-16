@@ -3,7 +3,7 @@ const Document = require("./Document")
 const express = require("express")
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://your-frontend-url.vercel.app',  // Vercel frontend URL
+  origin: 'https://sync-script-mu.vercel.app/',  // Vercel frontend URL
 }));
 
 // Initialize Express app
