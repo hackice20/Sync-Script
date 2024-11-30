@@ -13,35 +13,6 @@ It provides seamless synchronization of document changes across multiple users.
 **Video Demo**
 [Video Demo](https://youtu.be/zYzlZV121C0)
 
-## Installation
-
-1. Clone the repository:
-
-   ```
-      
-   
-      git clone https://github.com/hackice20/Sync-Script.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-      
-      cd Sync-Script
-   ```
-
-3. Install dependencies:
-   
-   ```
-      
-      npm install
-   ```
-
-4. Start the development server:
-   ```
-      
-      npm run dev
-   ```
-
 ## Features
 
 - **Real-Time Collaboration**: Allows multiple users to edit the same document simultaneously. Changes are broadcasted to all connected clients instantly.
