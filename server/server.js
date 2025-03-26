@@ -1,7 +1,9 @@
 const express = require("express")
 const cors = require('cors');
 const mongoose = require("mongoose")
+require('dotenv').config();
 const Document = require("./Document")
+
 // Initialize Express app
 const app = express()
 app.use(cors({
@@ -9,13 +11,12 @@ app.use(cors({
 }));
 app.use(express.json());
 
-const uri = 'mongodb+srv://yashkam431:KjxDCgexpUAfBHXc@cluster0.u4awn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
-// Mongoose connection
-mongoose.connect(uri, {
-  
-})
+
+const uri = process.env.MONGO_URI;
+
+mongoose.connect(uri, {})
   .then(() => console.log("Connected to MongoDB"))
-  .catch(err => console.error("Connection error", err))
+  .catch(err => console.error("Connection error", err));
 
 // Create an HTTP server and pass the Express app to it
 const server = require("http").createServer(app)
